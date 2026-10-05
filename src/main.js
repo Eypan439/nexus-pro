@@ -96,6 +96,29 @@ document.querySelector('#app').innerHTML = `
     </div>
   </section>
 
+  <!-- PRICING SECTION -->
+<section id="pricing" style="margin-bottom: 5rem; text-align: center;">
+  <div class="section-title">
+    <h2>Basit & Şeffaf Fiyatlandırma</h2>
+    <p>Ekibinize en uygun planı seçin</p>
+  </div>
+  <div class="features-grid">
+    <div class="feature-card" style="border: 2px solid var(--accent-primary);">
+      <div class="feature-icon">🚀</div>
+      <h3>Geliştirici Paketi</h3>
+      <div style="font-size: 2rem; font-weight: 800; margin: 1rem 0;">₺0 <span style="font-size: 1rem; color: var(--text-muted)">/ömür boyu</span></div>
+      <p>Bireysel projeler ve açık kaynak için ideal.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🏢</div>
+      <h3>Kurumsal Ekip</h3>
+      <div style="font-size: 2rem; font-weight: 800; margin: 1rem 0;">₺499 <span style="font-size: 1rem; color: var(--text-muted)">/ay</span></div>
+      <p>Sınırsız branch, otomatik test ve CI/CD desteği.</p>
+    </div>
+  </div>
+</section>
+
+
   <!-- WORKFLOW INFO -->
   <section id="workflow" class="branch-status-box">
     <div>
